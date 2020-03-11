@@ -4,7 +4,6 @@ import { darken } from 'polished';
 export const Container = styled.div`
   max-width: 600px;
   margin: 50px auto;
-
   form {
     display: flex;
     flex-direction: column;
@@ -47,15 +46,6 @@ export const Container = styled.div`
         background: ${darken(0.03, '#3b9eff')};
       }
     }
-    a {
-      color: #fff;
-      margin-top: 15px;
-      font-size: 16px;
-      opacity: 0.8;
-      &:hover {
-        opacity: 1;
-      }
-    }
   }
   > button {
     width: 100%;
@@ -69,7 +59,7 @@ export const Container = styled.div`
     font-size: 16px;
     transition: background 0.2s;
     &:hover {
-      background: ${darken(0.08, '#f64c75')};
+      background: ${darken(0.08, '#F64C75')};
     }
   }
 `;

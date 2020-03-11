@@ -44,6 +44,7 @@ export default function AvatarInput() {
           }
           alt=""
         />
+
         <input
           type="file"
           id="avatar"
