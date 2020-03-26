@@ -40,13 +40,16 @@ export const Profile = styled.div`
   margin-left: 20px;
   padding-left: 20px;
   border-left: 1px solid #eee;
+
   div {
     text-align: right;
     margin-right: 10px;
+
     strong {
       display: block;
       color: #333;
     }
+
     a {
       display: block;
       margin-top: 2px;
@@ -54,6 +57,7 @@ export const Profile = styled.div`
       color: #999;
     }
   }
+
   img {
     width: 32px;
     height: 32px;
